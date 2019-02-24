@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <div class="banniere">
+      <img src="photos/header-site.png" alt="banniere">
+    </div>
+      <nav>
+          <div class="img-clochette"><img src="photos/fee-clochette.png" alt="clochette"></div>
+          <ul>
+              <li><a class="classa" href="../histoire/index.html">Histoire</a></li>
+              <li><a class="classa" href="../persos/index.html">Personnages</a></li>
+              <li><a class="classa" href="../parcs/index.html">Parcs</a></li>
+              <li><a class="classa" href="index.html">Contacts</a></li>
+          </ul>
+        </nav>
+
+<form id="contact-form">
+  <p>Cher Mickey,</p>
+  <p>Mon
+    <label for="your-name">nom</label> est
+    <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(Ton nom)" required> et</p>
+
+  <p>Mon
+    <label for="email">adresse mail</label> est
+    <input type="email" name="your-email" id="email" placeholder="(ton adresse email)" required>
+  </p>
+
+  <p> J'ai un
+    <label for="your-message">message</label> pour toi,</p>
+
+  <p>
+    <textarea name="your-message" id="your-message" placeholder="(ton message)" class="expanding" required></textarea>
+  </p>
+  <p>
+    <button type="button" class="btn btn-success">Envoyer</button>
+  </p>
+</form>
+</body>
+</html>
